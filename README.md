@@ -3,18 +3,17 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 ### Build
-next build
-
-Then start in dev or prod
+npm run build
 
 ### DEV
-next dev --turbopack
+npm run dev
 
 ### Lint
-next lint
+npm run lint
 
 ### PROD
-next start
+npm run build
+npm run start
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
