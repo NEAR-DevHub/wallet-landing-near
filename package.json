@@ -1,7 +1,8 @@
 {
-  "name": "landingne",
+  "name": "wallet_landing_page",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -9,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.1.7",
+    "next": "^15.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
