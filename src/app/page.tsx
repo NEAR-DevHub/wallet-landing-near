@@ -1,6 +1,5 @@
 import wallets from "./data/wallets";
 import Card from "./components/Card";
-import { headers } from 'next/headers';
 
 export default async function Page() {
 
