@@ -1,10 +1,7 @@
 import wallets from "./data/wallets";
 import Card from "./components/Card";
-import { headers } from 'next/headers';
 
 export default async function Page() {
-  const headerList = await headers();
-  const userAgent = headerList.get('user-agent') || 'No user-agent'; 
 
   return (
     <main className="bg-[color:#f2f1ea]">
@@ -15,7 +12,7 @@ export default async function Page() {
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Explore a range of user-friendly wallets designed to meet your needs.
         </p>
-        <p className="text-sm text-gray-500">User-Agent: {userAgent}</p>
+        
       </section>
       <section className="mb-20 container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
