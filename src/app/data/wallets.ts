@@ -50,6 +50,13 @@ const wallets = [
 			"A mobile and extension wallet, with support for multiple ecosystems.",
 	},
 	{
+		name: "Sweat Wallet",
+		icon: "/sweat.jpg",
+		url: "https://sweateconomy.com/",
+		description:
+			"Your secure non-custodial wallet with gamified movement-based earnings & rewards.",
+	},
+	{
 		name: "WELLDONE Wallet",
 		icon: "/welldone.png",
 		url: "https://welldonestudio.io/",
