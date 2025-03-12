@@ -2,17 +2,19 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+### Build
+next build
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Then start in dev or prod
+
+### DEV
+next dev --turbopack
+
+### Lint
+next lint
+
+### PROD
+next start
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
