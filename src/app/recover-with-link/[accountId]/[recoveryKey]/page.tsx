@@ -1,8 +1,8 @@
 "use client"
 
 import { Copy, Eye, EyeSlash } from '@phosphor-icons/react';
-import { useState, useEffect, use } from 'react';
-import { useRouter } from 'next/navigation';
+import { useState, use } from 'react';
+
 import { ToastContainer, toast } from 'react-toastify';
 import Wallets from '@/components/Wallets';
 
@@ -11,11 +11,10 @@ export default function Page({
 }: {
   params: Promise<{ accountId: string; recoveryKey: string }>;
 }) {
-  const router = useRouter();
   const { accountId, recoveryKey } = use(params);
-  const [keys, setKeys] = useState('');
-  const [privateKeyVisible, setPrivateKeyVisible] = useState(false);
 
+  const [privateKeyVisible, setPrivateKeyVisible] = useState(false);
+  const keys = decodeURIComponent(recoveryKey)
   const notify = () => toast.success(" Access key copied to clipboard", {
     position: "bottom-right",
     autoClose: 5000,
@@ -23,15 +22,6 @@ export default function Page({
     closeOnClick: false,
     theme: "light",
   });
-
-  useEffect(() => {
-    if (!accountId || !recoveryKey) {
-      router.push('/error');
-      return;
-    }
-
-    setKeys(decodeURIComponent(recoveryKey));
-  }, [accountId, recoveryKey, router]);
 
   const copyToClipboard = async (text: string) => {
     try {
