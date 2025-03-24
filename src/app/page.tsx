@@ -1,5 +1,4 @@
-import wallets from "./data/wallets";
-import Card from "./components/Card";
+import Wallets from "@/components/Wallets";
 
 export default async function Page() {
 
@@ -12,15 +11,8 @@ export default async function Page() {
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Explore a range of user-friendly wallets designed to meet your needs.
         </p>
-        
       </section>
-      <section className="mb-20 container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {wallets.map((wallet, index) => (
-            <Card key={`card-${index}`} {...wallet} />
-          ))}
-        </div>
-      </section>
+      <Wallets/>
       <section className="mt-8 pt-12 bg-white bg-[url('/plus.png')] w-full bg-repeat bg-top bg-[size:75px_75px] h-[640px] flex items-center justify-center">
         <div className="max-w-2xl mx-auto px-6 py-4 bg-white flex flex-col items-center justify-center">
           <h2 className="text-6xl font-bold mb-8 font-serif text-center">
