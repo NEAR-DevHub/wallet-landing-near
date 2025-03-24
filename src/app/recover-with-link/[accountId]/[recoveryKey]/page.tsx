@@ -9,11 +9,10 @@ import Wallets from '@/components/Wallets';
 export default function Page({
   params,
 }: {
-  params: { accountId: string, recoveryKey: string };
+  params: Promise<{ accountId: string; recoveryKey: string }>;
 }) {
   const router = useRouter();
-  const unwrappedParams = use(params);
-  const { accountId, recoveryKey } = unwrappedParams;
+  const { accountId, recoveryKey } = use(params);
   const [keys, setKeys] = useState('');
   const [privateKeyVisible, setPrivateKeyVisible] = useState(false);
 
@@ -85,7 +84,7 @@ export default function Page({
           We recommend using one of the following wallets
         </p>
       </section>
-      <Wallets/>
+      <Wallets />
     </main>
   );
 };
