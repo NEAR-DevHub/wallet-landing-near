@@ -71,7 +71,7 @@ export default function Page({
           NEAR Ecosystem Wallets
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          We recommend using one of the following wallets
+          Use the key to import your account into one of the following wallets
         </p>
       </section>
       <Wallets />
