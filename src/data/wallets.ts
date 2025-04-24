@@ -3,9 +3,9 @@ const wallets = [
 	{
 		name: "Meteor Wallet",
 		icon: "/meteor.png",
-		url: "https://wallet.meteorwallet.app",
+		url: "https://meteorwallet.app/",
 		description:
-			"Both a browser and extension wallet, with advanced NFT features.",
+			"Wallet for NEAR with zero-fee swaps & cross-chain bridging. Web, extension, and mobile app ready.",
 	},
 	{
 		name: "Hot Wallet",
