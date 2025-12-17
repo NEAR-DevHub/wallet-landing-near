@@ -12,7 +12,7 @@ const wallets = [
 		icon: "/hot.png",
 		url: "https://t.me/herewalletbot/app?startapp=21384415",
 		description:
-			"Telegram wallet with deep NEAR support, NEAR Launchpad, liquid staking, and a multichain bridge.",
+			"HOT Wallet is a mobile and browser extension wallet that unlocks and unifies NEAR with other blockchains",
 	},
 	{
 		name: "NEAR Mobile",
