@@ -40,7 +40,7 @@ const wallets = [
 		icon: "/intear.png",
 		url: "https://wallet.intear.tech/",
 		description:
-			"A fast and secure wallet available on the web and desktop.",
+			"A fast and secure wallet available on the web, mobile, and desktop platforms.",
 	},
 	{
 		name: "Nightly Wallet",
