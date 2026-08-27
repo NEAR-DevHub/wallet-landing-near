@@ -63,6 +63,13 @@ const wallets = [
 		description:
 			"Security-audited mobile & extension wallet with 1M+ users, supporting NEAR & Aurora.",
 	},
+	{
+		name: "Gem Wallet",
+		icon: "/gem.png",
+		url: "https://gemwallet.com/",
+		description:
+			"Open-source mobile wallet with native NEAR support and cross-chain swaps through NEAR Intents.",
+	},
 ];
 
 export default wallets;
