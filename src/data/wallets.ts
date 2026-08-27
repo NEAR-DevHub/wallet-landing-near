@@ -68,7 +68,7 @@ const wallets = [
 		icon: "/gem.png",
 		url: "https://gemwallet.com/",
 		description:
-			"Open-source mobile wallet with native NEAR support and cross-chain swaps through NEAR Intents.",
+			"Open-source, self-custodial mobile wallet supporting NEAR and 100+ blockchain networks.",
 	},
 ];
 
