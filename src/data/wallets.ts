@@ -24,16 +24,9 @@ const wallets = [
 	{
 		name: "Ethereum Wallet",
 		icon: "/eth.png",
-		url: "https://welcome-to-near.org/",
+		url: "https://evm-on-near.dev/how-it-works",
 		description:
 			"Use any of your favorite EVM wallets seamlessly with NEAR Protocol.",
-	},
-	{
-		name: "HERE Wallet",
-		icon: "/here.png",
-		url: "https://www.herewallet.app",
-		description:
-			"Non-custodial mobile wallet with a friendly user interface and advanced features.",
 	},
 	{
 		name: "Intear Wallet",
@@ -55,14 +48,7 @@ const wallets = [
 		url: "https://sweateconomy.com/",
 		description:
 			"Your secure non-custodial wallet with gamified movement-based earnings & rewards.",
-	},
-	{
-		name: "Sender Wallet",
-		icon: "/sender.png",
-		url: "https://sender.org",
-		description:
-			"Security-audited mobile & extension wallet with 1M+ users, supporting NEAR & Aurora.",
-	},
+	}
 ];
 
 export default wallets;
