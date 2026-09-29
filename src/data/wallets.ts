@@ -1,6 +1,13 @@
 
 const wallets = [
 	{
+		name: "NEAR Mobile",
+		icon: "/near-mobile.png",
+		url: "https://nearmobile.app/",
+		description:
+			"A self-custodial iOS and Android wallet for NEAR, staking and gasless cross-chain swaps powered by NEAR Intents.",
+	},
+	{
 		name: "Meteor Wallet",
 		icon: "/meteor.png",
 		url: "https://meteorwallet.app/",
@@ -13,13 +20,6 @@ const wallets = [
 		url: "https://t.me/herewalletbot/app?startapp=21384415",
 		description:
 			"HOT Wallet is a mobile and browser extension wallet that unlocks and unifies NEAR with other blockchains",
-	},
-	{
-		name: "NEAR Mobile",
-		icon: "/near-mobile.png",
-		url: "https://nearmobile.app/",
-		description:
-			"A non-custodial wallet that is easy to use and well-designed for managing your crypto wherever you go.",
 	},
 	{
 		name: "Ethereum Wallet",
