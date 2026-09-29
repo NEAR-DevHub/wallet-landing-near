@@ -5,7 +5,7 @@ const wallets = [
 		icon: "/near-mobile.png",
 		url: "https://nearmobile.app/",
 		description:
-			"The largest mobile wallet in the NEAR ecosystem, with 1M+ downloads. A self-custodial iOS and Android wallet for NEAR, staking and gasless cross-chain swaps powered by NEAR Intents.",
+			"A self-custodial iOS and Android wallet for NEAR, staking and gasless cross-chain swaps powered by NEAR Intents.",
 	},
 	{
 		name: "Meteor Wallet",
