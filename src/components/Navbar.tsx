@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Navbar = () => {
     return (
         <header className="container mx-auto px-4 py-6">
-            <a className="flex justify-between items-center" href="https://near.org/" target="_blank" rel="noopener noreferrer">
+            <a className="flex justify-between items-center" href="/" target="_blank" rel="noopener noreferrer">
                 <Image
                     src="/near.svg"
                     alt="NEAR Protocol Logo"
