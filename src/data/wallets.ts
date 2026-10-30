@@ -48,6 +48,13 @@ const wallets = [
 		url: "https://sweateconomy.com/",
 		description:
 			"Your secure non-custodial wallet with gamified movement-based earnings & rewards.",
+	},
+	{
+		name: "Oath Wallet",
+		icon: "/oath.svg",
+		url: "https://apps.apple.com/app/id6780187283",
+		description:
+			"A multi-chain wallet for iPhone and iPad with support for NEAR.",
 	}
 ];
 
