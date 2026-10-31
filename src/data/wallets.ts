@@ -54,7 +54,7 @@ const wallets = [
 		icon: "/oath.svg",
 		url: "https://apps.apple.com/app/id6780187283",
 		description:
-			"A multi-chain wallet for iPhone and iPad with support for NEAR.",
+			"An iPhone and iPad wallet for reviewing and signing NEAR transactions and contract calls via WalletConnect.",
 	}
 ];
 
